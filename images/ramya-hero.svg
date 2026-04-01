@@ -1,0 +1,58 @@
+<svg width="900" height="1120" viewBox="0 0 900 1120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="114" y1="96" x2="761" y2="1052" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#171C29"/>
+      <stop offset="0.55" stop-color="#111520"/>
+      <stop offset="1" stop-color="#0C0F17"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="221" y1="117" x2="697" y2="985" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8E08B"/>
+      <stop offset="0.48" stop-color="#DFC14B"/>
+      <stop offset="1" stop-color="#B78F27"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(190 176) rotate(46.6) scale(525.524 427.203)">
+      <stop stop-color="#F4DD82" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#F4DD82" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="900" height="1120" rx="56" fill="url(#bg)"/>
+  <rect width="900" height="1120" rx="56" fill="url(#glow)"/>
+
+  <path d="M703 64C800 154 849 304 834 469C818 647 709 812 527 976" stroke="url(#gold)" stroke-opacity="0.65" stroke-width="4"/>
+  <path d="M765 28C861 123 910 287 896 460C879 652 762 837 574 1018" stroke="url(#gold)" stroke-opacity="0.30" stroke-width="4"/>
+  <path d="M650 96C720 168 760 286 751 416C741 559 664 693 534 812" stroke="url(#gold)" stroke-opacity="0.26" stroke-width="4"/>
+
+  <rect x="72" y="74" width="756" height="972" rx="40" fill="white" fill-opacity="0.03" stroke="white" stroke-opacity="0.08"/>
+
+  <rect x="104" y="104" width="112" height="112" rx="30" fill="#0F1320" stroke="#E7CA62" stroke-opacity="0.45"/>
+  <text x="160" y="173" text-anchor="middle" fill="#E7CA62" font-family="Nunito Sans, Arial, sans-serif" font-size="40" font-weight="800">RK</text>
+
+  <text x="104" y="282" fill="#F4EBD0" font-family="Nunito Sans, Arial, sans-serif" font-size="70" font-weight="800">Ramya</text>
+  <text x="104" y="352" fill="#DFC14B" font-family="Nunito Sans, Arial, sans-serif" font-size="70" font-weight="800">Kannoji</text>
+  <text x="104" y="412" fill="#D5D7DE" fill-opacity="0.82" font-family="Nunito Sans, Arial, sans-serif" font-size="30" font-weight="700">HR Professional " People Operations</text>
+
+  <rect x="104" y="460" width="244" height="52" rx="26" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.09"/>
+  <text x="226" y="493" text-anchor="middle" fill="#F2F3F6" font-family="Nunito Sans, Arial, sans-serif" font-size="22" font-weight="700">Talent Acquisition</text>
+
+  <rect x="366" y="460" width="224" height="52" rx="26" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.09"/>
+  <text x="478" y="493" text-anchor="middle" fill="#F2F3F6" font-family="Nunito Sans, Arial, sans-serif" font-size="22" font-weight="700">Employee Care</text>
+
+  <rect x="104" y="528" width="198" height="52" rx="26" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.09"/>
+  <text x="203" y="561" text-anchor="middle" fill="#F2F3F6" font-family="Nunito Sans, Arial, sans-serif" font-size="22" font-weight="700">HR Operations</text>
+
+  <circle cx="612" cy="683" r="164" fill="#141926" stroke="#DFC14B" stroke-opacity="0.35" stroke-width="6"/>
+  <path d="M612 596C573 596 541 627 541 666C541 697 561 722 590 732C547 743 516 781 516 827V851H708V827C708 781 677 743 634 732C663 722 683 697 683 666C683 627 651 596 612 596Z" fill="url(#gold)" fill-opacity="0.92"/>
+  <circle cx="612" cy="660" r="72" fill="url(#gold)"/>
+  <path d="M565 900C577 874 602 856 631 856C660 856 685 874 697 900" stroke="#E7CA62" stroke-width="8" stroke-linecap="round"/>
+
+  <rect x="118" y="882" width="290" height="108" rx="24" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.09"/>
+  <text x="150" y="926" fill="#DFC14B" font-family="Nunito Sans, Arial, sans-serif" font-size="18" font-weight="800" letter-spacing="2">WORK STYLE</text>
+  <text x="150" y="958" fill="#F4EBD0" font-family="Nunito Sans, Arial, sans-serif" font-size="28" font-weight="700">Empathetic, organized,</text>
+  <text x="150" y="992" fill="#F4EBD0" font-family="Nunito Sans, Arial, sans-serif" font-size="28" font-weight="700">professional communication</text>
+
+  <rect x="462" y="130" width="248" height="118" rx="24" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.09"/>
+  <text x="494" y="176" fill="#DFC14B" font-family="Nunito Sans, Arial, sans-serif" font-size="18" font-weight="800" letter-spacing="2">PORTFOLIO</text>
+  <text x="494" y="214" fill="#F4EBD0" font-family="Nunito Sans, Arial, sans-serif" font-size="30" font-weight="700">Hiring, onboarding,</text>
+  <text x="494" y="248" fill="#F4EBD0" font-family="Nunito Sans, Arial, sans-serif" font-size="30" font-weight="700">engagement, reporting</text>
+  </svg>
