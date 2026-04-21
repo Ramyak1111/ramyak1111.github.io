@@ -232,6 +232,25 @@
         flex-wrap:wrap;
         gap:.85rem;
       }
+      /* Hero: LinkedIn — same btn + rp-btn footprint as “View portfolio” */
+      .rp-hero-actions .btn.rp-linkedin-cta{
+        color:#f0f7ff!important;
+        background:linear-gradient(135deg,rgba(10,102,194,.55) 0%,rgba(10,102,194,.2) 50%,rgba(255,255,255,.1) 100%)!important;
+        border:1px solid rgba(130,190,255,.48)!important;
+        box-shadow:0 8px 26px rgba(10,102,194,.28),inset 0 1px 0 rgba(255,255,255,.14);
+        transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease,filter .2s ease;
+      }
+      .rp-hero-actions .btn.rp-linkedin-cta:hover{
+        color:#fff!important;
+        transform:translateY(-2px);
+        border-color:rgba(172,216,255,.78)!important;
+        filter:brightness(1.05);
+        box-shadow:0 12px 34px rgba(10,102,194,.4),inset 0 1px 0 rgba(255,255,255,.2);
+      }
+      .rp-hero-actions .btn.rp-linkedin-cta:focus-visible{
+        outline:2px solid rgba(223,193,75,.95);
+        outline-offset:3px;
+      }
       .rp-hero-card{
         margin-left:auto;
         max-width:440px;
@@ -300,6 +319,7 @@
       @keyframes rp-scroll{to{transform:translateX(-50%)}}
       @media (prefers-reduced-motion:reduce){
         .rp-marquee-track{animation:none}
+        .rp-linkedin-cta:hover{transform:none}
       }
 
       .rp-section{padding:clamp(4rem,9vw,6.5rem) 0}
@@ -553,12 +573,6 @@
           font-size:.64rem;
           padding:.42rem .72rem;
         }
-        .rp-hero-actions{
-          flex-direction:column;
-        }
-        .rp-hero-actions .btn{
-          width:100%;
-        }
         .rp-mini{
           align-items:flex-start;
           font-size:.84rem;
@@ -633,7 +647,10 @@
                 </div>
                 <div class="rp-hero-actions" data-aos="fade-up" data-aos-delay="160">
                   <a class="btn btn-warning rp-btn" href="#projects"><i class="bi bi-grid-1x2-fill me-2"></i>View portfolio</a>
-                  <a class="btn btn-outline-light rp-btn" href="#contact"><i class="bi bi-envelope me-2"></i>Contact Ramya</a>
+                  <a class="btn rp-btn rp-linkedin-cta" href="https://www.linkedin.com/in/ramya-kannoji-gandhari-06578437a/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-linkedin me-2" aria-hidden="true"></i>Connect on LinkedIn
+                    <span class="visually-hidden">Opens in a new tab.</span>
+                  </a>
                 </div>
               </div>
               <div class="col-lg-6">
